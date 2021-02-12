@@ -1,0 +1,346 @@
+.footer-distributed{
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
+}
+
+.card{
+    background-color: #f2f8f9;
+}
+
+.card:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #17a2b8;
+    background-color: white;
+}
+
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    height: 100px;
+    overflow: hidden;
+    padding: 3px;
+}
+.card{
+    margin-bottom: 5px;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+
+
+
+.nav-item:hover{
+
+    background: #0a4852;
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 12;
+    border: none !important;
+    font-weight: bold;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    line-height: 100%;
+    text-align: center;
+    z-index: 2;
+    border-left: 1px solid #525252;
+
+}
+a.nav-link{
+    align-items:  center !important;
+    display: flex;
+}
+ .custom-li:nth-of-type(even){
+    background: #17a2b8 ;
+     color:#ffffff !important;
+
+
+}
+ .custom-li{
+     text-decoration: none;
+
+ }
+ .custom-li:nth-of-type(even) a {
+     color: white !important;
+     text-decoration: none;
+ }
+.custom-li:nth-of-type(odd) a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.custom-li:hover{
+    font-weight: bold;
+}
+
+ul.list-group.list-group-hover li:hover{
+    background: red;
+}
+
+.card-price{
+    text-align: center;
+    font-size: 1.1em;
+    text-decoration: line-through;
+    color:red;
+}
+.card-value{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    color:red;
+}
+
+.page-item{
+    cursor:pointer;
+}
+
+
+.italic{
+    font-style: italic;
+}
+
+.card-button:hover{
+    font-weight: bold;
+}
+
+.custom-selects{
+    text-align: center;
+}
+.router-link-active{
+    font-weight: bold;
+    color:white;
+}
+
+.card-img{
+    margin-top: 4px;
+}
+
+.similar-products{
+    text-align: center;
+}
+
+.site-name{
+    font-family: cursive;
+font-size: 1.8em !important;
+}
+
+button.btn.payment{
+    margin:2px;
+}
+button.btn.payment:hover{
+    color: white;
+    font-weight: bold;
+    background-color:#17a2b8;
+
+}
+
+.detail-price{
+    font-size: 1.1em;
+    text-decoration: line-through;
+    color:red;
+}
+.detail-value{
+    font-size: 1.4em;
+    font-weight: bold;
+    color:red;
+}
+.buy{
+    float:right;
+}
+
+#scrollToTopBtn {
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+    width: 48px
+}
